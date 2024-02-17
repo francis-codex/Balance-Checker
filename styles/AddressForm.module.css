@@ -1,25 +1,19 @@
-@media screen and (max-width: 500px) {
-  .input {
-    /* Responsive styles for input field on small screens */
-    background: #f2f2f2;
-  }
-
-  .formField {
-    /* Responsive styles for form field on small screens */
-    margin: 20px 0;
-    min-width: 100%; /* Remove min-width for full width on mobile */
-    padding: 20px;
-    font-size: 14px; /* Adjust font size for better readability */
-    border: 0;
-    font-family: "Roboto", sans-serif;
-  }
-
-  .formButton {
-    /* Responsive styles for button on small screens */
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 14px; /* Adjust font size for better readability */
-    border: 0;
-    font-family: "Roboto", sans-serif;
-  }
+.input {
+  background: #f2f2f2;
+}
+  
+.formField {
+  margin: 10px 0 10px 0;
+  min-width: 500px;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+.formButton {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
 }
